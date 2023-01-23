@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    background-color: hsl(216, 50%, 16%);
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-main {
+    position: absolute;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin-top: -250px;
+    margin-left: -125px;
+}
+
+.view {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-top: 0px;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(178, 100%, 40%);
+    opacity: 0.8;
+}
+
+.views{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    opacity: 1;
+}
+
+.img-main:hover {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+h2 {
+    position: relative;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    margin-right: 35px;
+    margin-top: 15px;
+    font: 400;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text {
+    position: relative;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+    margin-left: 28px;
+    margin-top: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    position: relative;
+    margin-left: -160px;
+    margin-top: 15px;
+}
+
+.eth-text {
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+.clock {
+    color: hsl(215, 51%, 70%);
+    position: relative;
+    margin-left: 140px;
+    margin-top: -20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock-text {
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.perfil {
+    height: 40px;
+    width: 250px;
+    margin-top: 20px;
+    border-top: 1px solid hsl(215, 32%, 27%);
+}
+
+.perfil img {
+    height:30px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.perfil p {
+    position: relative;
+    margin-left: 50px;
+    margin-top: -30px;
+    color: hsl(215, 51%, 70%);
+}
+
+.perfil a {
+    text-decoration: none;
+    color: white;
+}
+
+.perfil a:hover {
+    color: hsl(178, 100%, 50%);
+}
